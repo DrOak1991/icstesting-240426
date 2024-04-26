@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Taipei:20240426T100000
+DTEND;TZID=Asia/Taipei:20240426T103000
+DTSTAMP:20240425T101549Z
+ORGANIZER;CN=Will Lin:mailto:will.lin@oakmega.com
+UID:3anceu9e7ukrespprr0rs2umbq@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Ethan Lin;X-NUM-GUESTS=0:mailto:ethan.lin@oakmega.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Will Lin;X-NUM-GUESTS=0:mailto:will.lin@oakmega.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qhu-mfmc-xum
+X-MICROSOFT-CDO-OWNERAPPTID:371567854
+CREATED:20240425T101548Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\n使用 Google Meet 加入：https://meet.google.com/qhu-mfm
+ c-xum\n或撥打以下電話號碼：(US) +1 570-658-9113 驗證碼： 401576708#\n更多電話號碼: https://tel.
+ meet/qhu-mfmc-xum?pin=9874873145502&hs=7\n\n如要進一步瞭解 Meet，請前往：https://suppor
+ t.google.com/a/users/answer/9282720\n\n請勿編輯這個部分。\n-::~:~::~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240425T101548Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ethan / Will Bayer 客製化討論
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
